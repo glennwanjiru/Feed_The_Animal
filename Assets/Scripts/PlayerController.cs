@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float horizontaInput;
+    public float speed = 10.0f;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        
+        if (transform.position.x < -10)
+        {
+            horizontaInput = Input.GetAxis("Horizontal");
+            transform.Translate(Vector3.right * horizontaInput * Time.deltaTime * speed);
+        }
     }
 }
