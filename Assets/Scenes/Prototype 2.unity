@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  xRange: 10
+  xRange: 17
   projectilePrefab: {fileID: 5691976846331296245, guid: 58dc0ad6456f9bf4cae334e809797d8c, type: 3}
 --- !u!1 &534669902
 GameObject:
@@ -587,6 +587,8 @@ MonoBehaviour:
   - {fileID: 4766031523304322877, guid: 109c34567e742a44c841ff208c53be03, type: 3}
   - {fileID: 3097320234083476152, guid: 20c07e538bcd65c42ae1d32ffd5223af, type: 3}
   - {fileID: 3867309392649246096, guid: 7dbffe47d3f0d6c48b16c4091f50fa26, type: 3}
+  startDelay: 2
+  spawnInterval: 1.5
 --- !u!4 &821174643
 Transform:
   m_ObjectHideFlags: 0
