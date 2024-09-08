@@ -5,7 +5,7 @@ using UnityEngine;
 public class DestroyOutOfBounds : MonoBehaviour
 {
     public float topBound=30;
-    public float lowerBound=10;
+    public float lowerBound=-10;
     void Start()
     {
         
