@@ -580,6 +580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dogPrefab: {fileID: 8241448880393145375, guid: 3e5fe95e580114a5f8f8348678e77463, type: 3}
+  spawnCooldown: 1
 --- !u!4 &355618745
 Transform:
   m_ObjectHideFlags: 0
@@ -740,7 +741,7 @@ Camera:
   far clip plane: 1000
   field of view: 54.5
   orthographic: 1
-  orthographic size: 16.31
+  orthographic size: 13.72
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -765,7 +766,7 @@ Transform:
   m_GameObject: {fileID: 534669902}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 14.4, z: -26}
+  m_LocalPosition: {x: 0, y: 12.5, z: -26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1284,7 +1285,8 @@ MonoBehaviour:
   spawnLimitXRight: 7
   spawnPosY: 30
   startDelay: 1
-  spawnInterval: 2
+  minSpawnInterval: 1
+  maxSpawnInterval: 5
 --- !u!1 &1025854373
 GameObject:
   m_ObjectHideFlags: 0
